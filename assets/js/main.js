@@ -7,7 +7,7 @@ function sendMessage() {
     if (inputText.value == '') {
         alert.innerHTML = alertMessage
     } else {
-        document.getElementById("outputText").innerHTML = inputText.value
+        outputText.innerHTML = inputText.value
         inputText.value = ""
     }
 
